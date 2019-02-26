@@ -26,7 +26,6 @@ def score_IP():
         ip_dict[split_item[1]] = split_item[0] # set key of dict to IP address (second el of split_Item) and the value
                                                 # to the type of login (first el of split_Item)
     file.close
-    print(ip_dict)
 
     min_dist = float("inf")
     score = 0.0
